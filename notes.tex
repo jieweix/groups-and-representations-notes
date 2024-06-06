@@ -1,4 +1,4 @@
-\documentclass[a4paper]{article}
+\documentclass{article}
 \usepackage[utf8]{inputenc}
 \usepackage[british]{babel}
 \usepackage{amsthm}
@@ -16,12 +16,8 @@
 \newcommand{\tikznode}[3][inner sep=0pt]{\tikz[remember
 picture,baseline=(#2.base)]{\node(#2)[#1]{$#3$};}}
 \usepackage{ytableau}
-%\usepackage[full]{textcomp}
-%\usepackage{garamondx}
-%\usepackage[scaled=1.01]{zlmtt}
-%\usepackage{sourcesanspro}
-%\usepackage[garamondx,cmbraces]{newtxmath}
-%\useosf
+
+\geometry{a4paper,left=2cm,right=2cm,top=2cm,bottom=2cm}
 
 \makeatletter
 \renewcommand*\env@matrix[1][*\c@MaxMatrixCols c]{%
@@ -1264,7 +1260,7 @@ $\C^{\Cl_G}=\{f:\Cl_G\rightarrow \C\}$, which we identify with the set of class 
 The characters of irreducible representations of $G$ form a basis of vector space $\C^{\Cl_G}$.
 \end{coro}
 \begin{proof}
-By \ref{thm:orthogonalityrelations}, the irreducibles characters are linearly independent, and by \ref{coro:nofpairwisenonisoirredrepofGisnofclG} the number of such characters equal $\dim \C^{\Cl_G}=|\Cl_G|$.
+By \ref{thm:orthogonalityrelations}, the irreducibles characters are linearly independent, and by \ref{coro:nofpairwisenonisoirredrepofGisnofclG} the number of such characters equals $\dim \C^{\Cl_G}=|\Cl_G|$.
 \end{proof}
 
 \begin{flushright}
@@ -1635,9 +1631,9 @@ the \textit{permutation module} corresponding to $\lambda$.
 \end{defn}
 
 \begin{example}
-Consider $\lambda=(n)$, giving one-row Young tableaux. Then $M^{(n)}=\C\{\begin{ytableau}
+Consider $\lambda=(n)$, giving one-row Young tableaux. Then $M^{(n)}=\C\left\{\begin{ytableau}
   1&2&\cdots&n
-\end{ytableau}\}$ with the trivial action.
+\end{ytableau}\right\}$ with the trivial action.
 
 Now consider $\lambda=(1^n)$, giving one-column Young tableaux. Then $M^{(1^n)}\sim\C S_n$.
 
@@ -1692,7 +1688,7 @@ The \textit{Hasse diagram} consists of
 For example,
 
 \[
-\xymatrix@C=0.2em{
+\xymatrix@R=1.5em{
   &(6)\\
   &(5,1)\ar[u]\\
   &(4,2)\ar[u]\\
@@ -2078,7 +2074,7 @@ For two tabloids $\{s\},\{t\}$ with composition sequences $\lambda^i$ and $\mu^i
 \begin{example}
 The Hasse diagram for $(2,2)$-tabloids:
 \[
-\xymatrix@C=1em{
+\xymatrix@R=1.5em{
 & & {\begin{ytableau}1&2\\3&4\end{ytableau}} & (1,0),(2,0),(2,1),(2,2) \\
 & &{\begin{ytableau}1&3\\2&4\end{ytableau}}\ar[u] & (1,0),(1,1),(2,1),(2,2) \\
 (0,1),(1,1),(2,1),(2,2)& {\begin{ytableau}2&3\\1&4\end{ytableau}}\ar[ur] & & {\begin{ytableau}1&4\\2&3\end{ytableau}}\ar[ul] & (1,0),(1,1),(1,2),(2,2) \\
