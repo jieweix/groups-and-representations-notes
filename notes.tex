@@ -6,6 +6,7 @@
 \usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage{mathtools}
+\usepackage{luatex85}
 \usepackage[all]{xy}
 \usepackage{color}
 \usepackage{geometry}
@@ -18,6 +19,7 @@ picture,baseline=(#2.base)]{\node(#2)[#1]{$#3$};}}
 \usepackage{ytableau}
 
 \geometry{a4paper,left=2cm,right=2cm,top=2cm,bottom=2cm}
+\ytableausetup{smalltableaux}
 
 \makeatletter
 \renewcommand*\env@matrix[1][*\c@MaxMatrixCols c]{%
@@ -88,7 +90,7 @@ picture,baseline=(#2.base)]{\node(#2)[#1]{$#3$};}}
 
 \title{MA3E1 Groups and representations :: Lecture notes}
 \author{Lecturer: Christian Ikenmeyer}
-\date{\today}
+\date{Last edited: \today}
 
 \begin{document}
 
@@ -663,7 +665,7 @@ $\rho:Q_8\rightarrow GL_2(\C),\ \rho(a)=\begin{pmatrix}i&0\\0&-i\end{pmatrix},\ 
 \begin{defn}
 Let $G$ be a group, $K$ a field and $V$ a $KG$-module. $W\subseteq V$ is a $KG$\textit{-submodule} of $V$ if
 \begin{enumerate}
-\item $W\subseteq V$ is a $K$ subspace
+\item $W\subseteq V$ is a $K$-subspace
 \item $gw\in W \ \forall w\in W, g\in G$
 \end{enumerate}
 \end{defn}
@@ -689,7 +691,7 @@ $C_n=\la x\mid x^n=1\ra,\ \rho:C_n\rightarrow GL_2(\R),\ \rho(x)=R_{2\pi/n}$. We
 
 \begin{example}
 \label{example:Cinfxactsby1101}
-$C_\infty=\la x\mid \ \ra,\ A=\begin{pmatrix}1&1\\0&1\end{pmatrix}$. Consider the $\C C_\infty$-module $V=\C^2$ with $x$ acting by multiplication with $A$. One can see $\C\begin{pmatrix}1\\0\end{pmatrix}$ is a 1-d subrepresentation, and we claim there are no other 1-d subrepresentations (i.e. no other nontrivial proper subrepresentations). Indeed, suppose $\C v$ where $c\neq 0$ is one, i.e. $Av=\lambda v$ for some $\lambda\in\C$, but $A$ only has one eigenvector $\begin{pmatrix}1\\0\end{pmatrix}$. If $A$ were $\begin{pmatrix}2&0\\0&3\end{pmatrix}$ then there would be two nontrivial proper subrepresentations, $\C\begin{pmatrix}1\\0\end{pmatrix}$ and $\C\begin{pmatrix}0\\1\end{pmatrix}$.
+$C_\infty=\la x\mid \ \ra,\ A=\begin{pmatrix}1&1\\0&1\end{pmatrix}$. Consider the $\C C_\infty$-module $V=\C^2$ with $x$ acting by multiplication with $A$. One can see $\C\begin{pmatrix}1\\0\end{pmatrix}$ is a 1-d subrepresentation, and we claim there are no other 1-d subrepresentations (i.e. no other nontrivial proper subrepresentations). Indeed, suppose $\C v$ where $v\neq 0$ is one, i.e. $Av=\lambda v$ for some $\lambda\in\C$, but $A$ only has one eigenvector $\begin{pmatrix}1\\0\end{pmatrix}$. If $A$ were $\begin{pmatrix}2&0\\0&3\end{pmatrix}$ then there would be two nontrivial proper subrepresentations, $\C\begin{pmatrix}1\\0\end{pmatrix}$ and $\C\begin{pmatrix}0\\1\end{pmatrix}$.
 \end{example}
 
 \begin{example}
@@ -761,7 +763,7 @@ Let $V,W$ be $KG$-modules. A $K$-linear map $f:V\rightarrow W$ is a $G$-\textit{
 \end{defn}
 
 \begin{notation}
-$\Hom_G(V,W)=\{f:V\rightarrow W:f\ G\text{-morphism}\}$. This is a vector space.
+$\Hom_G(V,W)=\{f:V\rightarrow W:f\text{ is a }G\text{-morphism}\}$. This is a vector space.
 \end{notation}
 
 \begin{defn}

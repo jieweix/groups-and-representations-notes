@@ -39,7 +39,7 @@
 \contentsline {subsection}{\numberline {9.3}Specht module}{23}{subsection.9.3}%
 \contentsline {subsection}{\numberline {9.4}The submodule theorem}{25}{subsection.9.4}%
 \contentsline {subsection}{\numberline {9.5}Standard tableaux and basis for $S^\lambda $: linear independence}{27}{subsection.9.5}%
-\contentsline {section}{\numberline {10}More examples}{29}{section.10}%
-\contentsline {subsection}{\numberline {10.1}Alternating group $A_4$}{29}{subsection.10.1}%
-\contentsline {subsection}{\numberline {10.2}Dihedral group}{30}{subsection.10.2}%
-\contentsline {subsection}{\numberline {10.3}Quaternion group $Q_8$}{31}{subsection.10.3}%
+\contentsline {section}{\numberline {10}More examples}{28}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Alternating group $A_4$}{28}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Dihedral group}{29}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Quaternion group $Q_8$}{30}{subsection.10.3}%
