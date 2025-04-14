@@ -15,7 +15,7 @@
 \contentsline {subsection}{\numberline {4.3}First properties of character}{6}{subsection.4.3}%
 \contentsline {section}{\numberline {5}Linear representation and $KG$-module}{6}{section.5}%
 \contentsline {subsection}{\numberline {5.1}Correspondence between matrix representations and linear representations}{6}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}The regular representation}{6}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.2}The regular representation}{7}{subsection.5.2}%
 \contentsline {subsection}{\numberline {5.3}$KG$-module}{7}{subsection.5.3}%
 \contentsline {section}{\numberline {6}Submodule and morphism}{8}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Submodule and reducibility}{8}{subsection.6.1}%
@@ -28,18 +28,18 @@
 \contentsline {subsection}{\numberline {7.2}Semisimplicity and complementary modules}{11}{subsection.7.2}%
 \contentsline {subsection}{\numberline {7.3}Maschke's theorem}{11}{subsection.7.3}%
 \contentsline {subsection}{\numberline {7.4}Orthogonality relations of characters}{12}{subsection.7.4}%
-\contentsline {subsection}{\numberline {7.5}Decomposition of regular representation}{14}{subsection.7.5}%
-\contentsline {subsubsection}{\numberline {7.5.1}The Wedderburn isomorphism}{15}{subsubsection.7.5.1}%
+\contentsline {subsection}{\numberline {7.5}Decomposition of regular representation}{15}{subsection.7.5}%
+\contentsline {subsubsection}{\numberline {7.5.1}The Wedderburn isomorphism}{16}{subsubsection.7.5.1}%
 \contentsline {subsubsection}{\numberline {7.5.2}Character tables}{17}{subsubsection.7.5.2}%
-\contentsline {subsection}{\numberline {7.6}The isotypic decomposition}{17}{subsection.7.6}%
-\contentsline {section}{\numberline {8}Induced representation}{18}{section.8}%
+\contentsline {subsection}{\numberline {7.6}The isotypic decomposition}{18}{subsection.7.6}%
+\contentsline {section}{\numberline {8}Induced representation}{19}{section.8}%
 \contentsline {section}{\numberline {9}An in-depth example: the symmetric group $S_n$}{21}{section.9}%
 \contentsline {subsection}{\numberline {9.1}Young subgroup, tableau, tabloid}{21}{subsection.9.1}%
 \contentsline {subsection}{\numberline {9.2}Dominance and lexicographic ordering}{22}{subsection.9.2}%
-\contentsline {subsection}{\numberline {9.3}Specht module}{23}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.3}Specht module}{24}{subsection.9.3}%
 \contentsline {subsection}{\numberline {9.4}The submodule theorem}{25}{subsection.9.4}%
 \contentsline {subsection}{\numberline {9.5}Standard tableaux and basis for $S^\lambda $: linear independence}{27}{subsection.9.5}%
-\contentsline {section}{\numberline {10}More examples}{28}{section.10}%
-\contentsline {subsection}{\numberline {10.1}Alternating group $A_4$}{28}{subsection.10.1}%
-\contentsline {subsection}{\numberline {10.2}Dihedral group}{29}{subsection.10.2}%
-\contentsline {subsection}{\numberline {10.3}Quaternion group $Q_8$}{30}{subsection.10.3}%
+\contentsline {section}{\numberline {10}More examples}{29}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Alternating group $A_4$}{29}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Dihedral group}{30}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Quaternion group $Q_8$}{31}{subsection.10.3}%
